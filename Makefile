@@ -10,7 +10,7 @@ help:
 # see: https://www.ecoop.net/coop/translated/GNUMake3.77/make_4.jp.html
 .PHONY: clean
 clean:
-	rm -rf dist
+	rm -rf dist node_modules
 
 .PHONY: build
 build: dist
