@@ -15,6 +15,12 @@ clean:
 .PHONY: build
 build: dist
 
+# コマンドを書かずに、単にターゲットを羅列する書き方も許容される
+# その場合、左から順番に評価される
+# cleanは.PHONYなので必ず実行され、buildが依存するdistが削除されるのでnpm iからやり直されることになる
+.PHONY: clean-build
+clean-build: clean build
+
 .PHONY: test
 test: dist
 	node_modules/jest/bin/jest.js dist/__tests__/*.js
