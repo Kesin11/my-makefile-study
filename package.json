@@ -1,0 +1,27 @@
+{
+  "name": "makefile-study",
+  "version": "1.0.0",
+  "description": "My Study Makefile repo",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kesin11/makefile-study.git"
+  },
+  "keywords": [],
+  "author": "kesin1202000@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kesin11/makefile-study/issues"
+  },
+  "homepage": "https://github.com/Kesin11/makefile-study#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "24.9.0",
+    "jest": "24.9.0",
+    "typescript": "3.7.5"
+  }
+}
